@@ -1,0 +1,35 @@
+body{
+  background-color:black;
+}
+canvas{
+  background-color:black;
+  position:absolute;
+    top:calc(50vh - 250px);
+  left:calc(50vw - 250px);
+  }
+#overlay {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top:calc(50vh - 250px);
+  left:calc(50vw - 250px);
+  background-image: radial-gradient(transparent 20%, #000 69%);
+}
+.bodyy{
+    background-color: black;
+}
+  
+#circle {
+    background: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    top:calc(50vh - 125px);
+  left:calc(50vw - 125px);
+}
+#circle-image{
+     position: absolute;
+    top:calc(50vh - 75px);
+  left:calc(50vw - 75px);
+}
