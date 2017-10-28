@@ -10,13 +10,19 @@
       <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body class = 'bodyy'>
 
+
+
+<body class = 'bodyy'>
+    <div class='navbar'><img class = 'center-block' src = 'images/logo-navbar.png'></div>
+    <div id="particles-js"></div>
+    
     <canvas id=c></canvas>
 <div id=overlay></div>
     <a href='#'><div id=circle></div>
-        <div id='circle-image'><img src = 'images/ambulance.png'></div></a>
-    
+        <div id='circle-image'><img src = 'images/logo.png'></div></a>
+    <script src="particles.js"></script>
+
 <script>
 var w = c.width = 500,
     h = c.height = 500,
@@ -29,7 +35,7 @@ function anim(){
   
   ++frame;
   
-  for(var i = 0; i < w; i+=0.5){
+  for(var i = 0; i < w; i+=2){
     ctx.strokeStyle = i%40 === 0 ? 'hsl(hue, 5%, 40%)'.replace('hue',
             (180 / (w/3) * i - frame) % 360
         ) : 'rgba(0, 0, 0, .08)';
@@ -40,6 +46,8 @@ function anim(){
   }
 }
 anim();
+    particlesJS.load('particles-js', 'assets/particlesjs-config.json', function() {
+  console.log('callback - particles.js config loaded');
+});
 </script>
-
 </body>
