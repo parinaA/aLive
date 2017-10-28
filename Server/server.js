@@ -2,7 +2,7 @@ var express = require('express');
 var morgan = require('morgan');
 var bodyParser = require('body-parser');
 
-var hypertrack = require('hypertrack-node')('sk_test_fd7776598c620489d5b89dac65ec1c4fce394371');
+var hypertrack = require('hypertrack-node').hypertrack('sk_test_fd7776598c620489d5b89dac65ec1c4fce394371');
 
 var app = express();
 app.use(morgan('dev'));
@@ -25,6 +25,9 @@ app.all(function(req,res,next){
 })
 
 app.get('/', function(req, res){
+    console.log(req.body);
+    console.log(hypertrack);
+    
     res.end('test');
 })
 
