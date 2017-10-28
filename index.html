@@ -14,7 +14,7 @@
 
 
 <body class = 'bodyy'>
-    <div class='navbar center-block'><img src = 'images/logo-navbar.png'></div>
+    <div class='navbar'><img class = 'center-block' src = 'images/logo-navbar.png'></div>
     <div id="particles-js"></div>
     
     <canvas id=c></canvas>
@@ -35,7 +35,7 @@ function anim(){
   
   ++frame;
   
-  for(var i = 0; i < w; i+=0.5){
+  for(var i = 0; i < w; i+=2){
     ctx.strokeStyle = i%40 === 0 ? 'hsl(hue, 5%, 40%)'.replace('hue',
             (180 / (w/3) * i - frame) % 360
         ) : 'rgba(0, 0, 0, .08)';
