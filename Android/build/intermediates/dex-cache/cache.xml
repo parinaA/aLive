@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/nikhil/Alive2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0bac2b67f355cba5667f11dce0ef604c63305e82">
+        <dex dex="/home/nikhil/Alive2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b04f45fb9ddad643d30e406e8293eb8f92473456/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nikhil/.android/build-cache/d04e9ed242f76ed1462dac83427b345d2229bafa/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="/home/nikhil/Alive2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2c76bec76aa1d2831dfa0c828f572a0acfd670eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nikhil/.android/build-cache/f62c3e0449e91bdb51dc25c0a9b5df78a0a2c8bf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="/home/nikhil/Alive2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c534e94216a0b1c9ea96588f4127e61439890846/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nikhil/Alive2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/nikhil/Alive2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e1ad3a9cb3c307132a56b42c1069b913e4fa150c/classes.dex" />
+    </item>
+
+</items>
